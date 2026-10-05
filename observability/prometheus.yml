@@ -1,0 +1,11 @@
+# Prometheus scrape config. "backend:8000" is the Docker Compose service name
+# for the FastAPI app - Docker's internal DNS resolves it, no IP needed.
+global:
+  scrape_interval: 10s     # how often Prometheus pulls fresh numbers
+  evaluation_interval: 10s
+
+scrape_configs:
+  - job_name: translation-backend
+    static_configs:
+      - targets: ["backend:8000"]
+    metrics_path: /metrics

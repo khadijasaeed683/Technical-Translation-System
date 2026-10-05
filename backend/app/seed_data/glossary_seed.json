@@ -1,0 +1,17 @@
+[
+  {"term": "server", "domain": "CS", "canonical_translation": "سرور (keep as technical term, do not translate as servant/waiter)", "aliases": [], "roman_urdu_variants": []},
+  {"term": "bug", "domain": "CS", "canonical_translation": "bug (software defect - do not translate as insect)", "aliases": ["defect"], "roman_urdu_variants": []},
+  {"term": "API", "domain": "CS", "canonical_translation": "API (keep as-is, do not transliterate phonetically)", "aliases": ["endpoint"], "roman_urdu_variants": []},
+  {"term": "push", "domain": "CS", "canonical_translation": "push (git/deployment sense - keep as-is or transliterate, not literal 'shove')", "aliases": [], "roman_urdu_variants": []},
+  {"term": "prod", "domain": "CS", "canonical_translation": "production (keep as technical short form 'prod')", "aliases": ["production"], "roman_urdu_variants": []},
+  {"term": "PR", "domain": "CS", "canonical_translation": "pull request (keep 'PR' as-is)", "aliases": ["pull request"], "roman_urdu_variants": []},
+  {"term": "merge", "domain": "CS", "canonical_translation": "merge (git sense, keep as-is or 'مرج')", "aliases": ["merged"], "roman_urdu_variants": []},
+  {"term": "system down", "domain": "CS", "canonical_translation": "system is down / not working (technical status phrase)", "aliases": [], "roman_urdu_variants": []},
+  {"term": "CI pipeline", "domain": "CS", "canonical_translation": "CI pipeline (keep as-is, continuous integration pipeline)", "aliases": ["CI/CD", "pipeline"], "roman_urdu_variants": []},
+  {"term": "null pointer exception", "domain": "CS", "canonical_translation": "null pointer exception (keep exact technical name)", "aliases": ["NPE"], "roman_urdu_variants": []},
+  {"term": "docker container", "domain": "CS", "canonical_translation": "docker container (keep as-is)", "aliases": ["container"], "roman_urdu_variants": []},
+  {"term": "rate limit", "domain": "CS", "canonical_translation": "rate limit (keep as-is / ریٹ لمٹ)", "aliases": [], "roman_urdu_variants": []},
+  {"term": "git rebase", "domain": "CS", "canonical_translation": "git rebase (keep as-is)", "aliases": ["rebase"], "roman_urdu_variants": []},
+  {"term": "compile", "domain": "CS", "canonical_translation": "compile (keep as technical term)", "aliases": [], "roman_urdu_variants": []},
+  {"term": "response", "domain": "CS", "canonical_translation": "response (as in API/network response, not just 'reply')", "aliases": [], "roman_urdu_variants": []}
+]

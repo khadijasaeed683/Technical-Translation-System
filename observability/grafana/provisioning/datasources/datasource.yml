@@ -1,0 +1,12 @@
+# Auto-registers Prometheus as a Grafana datasource on first boot, so there's
+# no manual "Add datasource" step in the UI.
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    uid: prometheus-ds
+    access: proxy
+    url: http://prometheus:9090
+    isDefault: true
+    editable: true

@@ -1,0 +1,31 @@
+id,source_text,source_lang,target_lang,domain,human_reference,contains_jargon,contains_typo_or_shortform,annotator_notes
+1,Please restart the server.,en,ur,technical,سرور کو دوبارہ اسٹارٹ کریں۔,true,false,"server as technical term, not servant/waiter"
+2,یہ bug production میں ہے,ur,en,technical,This bug is in production.,true,false,"bug = software defect, not insect"
+3,Let's push this to prod after the PR is merged.,en,ur,technical,پی آر مرج ہونے کے بعد اسے prod پہ push کر دیتے ہیں۔,true,false,"push/prod/PR kept as dev jargon"
+4,مجھے API کی رسپانس سمجھ نہیں آئی,ur,en,technical,I don't understand the API's response.,true,false,"API kept as-is, not transliterated"
+5,yar apka system down hai kia?,ur-roman,en,technical,Hey is your system down?,true,true,"casual register + technical status phrase"
+6,mjy is ka reply chahiye asap pls,ur-roman,en,general,I need a reply to this as soon as possible please.,false,true,"short-form + typo heavy"
+7,can u sen the fyl by 2mrw,en,ur,general,کیا آپ فائل کل تک بھیج سکتے ہیں؟,false,true,"typos: sen/fyl/2mrw"
+8,kal milty hain theek?,ur-roman,en,idiomatic,See you tomorrow okay?,false,false,"natural not word-for-word"
+9,Good morning how are you today?,en,ur,general,صبح بخیر آپ آج کیسے ہیں؟,false,false,
+10,مجھے بھوک لگی ہے,ur,en,general,I am hungry.,false,false,
+11,Please find attached the quarterly report for your review.,en,ur,formal,براہ کرم نظرثانی کے لیے سہ ماہی رپورٹ منسلک دیکھیں۔,false,false,"formal/email register"
+12,Kindly confirm your availability for the meeting on Monday.,en,ur,formal,براہ کرم پیر کے اجلاس کے لیے اپنی دستیابی کی تصدیق کریں۔,false,false,
+13,وقت ضائع نہ کریں,ur,en,idiomatic,Don't waste time.,false,false,
+14,اندھیرے میں تیر چلانا,ur,en,idiomatic,Shooting in the dark (making a baseless guess).,false,false,"idiom - resists literal translation"
+15,I merged the feature branch but the CI pipeline is failing.,en,ur,technical,میں نے فیچر برانچ مرج کر دی لیکن CI پائپ لائن فیل ہو رہی ہے۔,true,false,"CI/pipeline/branch kept as dev terms"
+16,ye null pointer exception ka masla hai,ur-roman,en,technical,This is a null pointer exception issue.,true,false,"exact exception name preserved"
+17,thora sa wait karo, response ana wala hai,ur-roman,en,general,Wait a bit the response is coming.,false,true,"casual chat tone"
+18,آپ کا دن اچھا گزرے,ur,en,idiomatic,Have a good day.,false,false,
+19,The deployment failed because the docker container ran out of memory.,en,ur,technical,ڈیپلائمنٹ ناکام ہوگئی کیونکہ ڈوکر کنٹینر کی میموری ختم ہوگئی۔,true,false,"docker/container/deployment kept technical"
+20,mera code compile nhi ho raha,ur-roman,en,technical,My code is not compiling.,true,true,"nhi -> nahi shortform + jargon"
+21,We regret to inform you that your application was not successful.,en,ur,formal,ہمیں افسوس کے ساتھ آگاہ کرنا ہے کہ آپ کی درخواست منظور نہیں ہوئی۔,false,false,"formal rejection register"
+22,is masle ka jaldi hal nikalain,ur-roman,en,general,Find a quick solution to this problem.,false,false,
+23,مہربانی فرما کر جواب جلدی دیں,ur,en,formal,Kindly reply quickly.,false,false,
+24,btw the meeting got postponed to next week,en,ur,general,ویسے میٹنگ اگلے ہفتے تک ملتوی ہو گئی ہے۔,false,true,"btw shortform"
+25,is bar kismat ne yaari nahi ki,ur-roman,en,idiomatic,Luck didn't favor me this time.,false,false,"idiom"
+26,The API rate limit was exceeded so the request returned a 429 error.,en,ur,technical,API ریٹ لمٹ سے تجاوز ہوا اس لیے ریکویسٹ نے 429 ایرر واپس کیا۔,true,false,"429/rate limit/API kept technical"
+27,mjhe office se late reply mila,ur-roman,en,general,I got a late reply from the office.,false,true,"mjhe shortform variant"
+28,Please ensure all invoices are submitted before the end of the fiscal quarter.,en,ur,formal,براہ کرم اس بات کو یقینی بنائیں کہ تمام انوائسز مالی سہ ماہی کے اختتام سے پہلے جمع ہو جائیں۔,false,false,
+29,اس نے آسمان سے تارے توڑ لانے کا وعدہ کیا,ur,en,idiomatic,He promised the impossible (lit. to pluck stars from the sky).,false,false,"strong idiom - keep meaning not literal words"
+30,git rebase kr k conflicts resolve krne hain,ur-roman,en,technical,I need to do a git rebase and resolve the conflicts.,true,true,"krne/kr shortform + git jargon"

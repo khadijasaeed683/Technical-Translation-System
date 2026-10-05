@@ -1,0 +1,13 @@
+# Tells Grafana to auto-load any dashboard JSON found in this folder on boot,
+# instead of requiring "Import dashboard" by hand.
+apiVersion: 1
+
+providers:
+  - name: Translation System
+    folder: ""
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 30
+    options:
+      # Updated to match the volume mount in docker-compose.yml
+      path: /var/lib/grafana/dashboards
